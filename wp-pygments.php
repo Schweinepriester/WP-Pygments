@@ -38,9 +38,8 @@ function mb_pygments_content_filter( $content )
 	
 	$content = preg_replace_callback('/<pre(\s?class\="(.*?)")?[^>]?.*?>.*?<code>(.*?)<\/code>.*?<\/pre>/sim', 'mb_pygments_convert_code', $content);
 	
-	// OR
 	/*
-		
+	OR	
 	libxml_use_internal_errors(true);
 	$dom = new DOMDocument();
 	$dom->loadHTML($content);
