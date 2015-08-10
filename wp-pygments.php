@@ -36,7 +36,8 @@ function mb_pygments_content_filter( $content )
 	
 	clear_post_cache();
 	
-	$content = preg_replace_callback('/<pre(\s?class\="(.*?)")?[^>]?.*?>.*?<code>(.*?)<\/code>.*?<\/pre>/sim', 'mb_pygments_convert_code', $content);
+	$codePattern = '/<pre(\s?class\="(.*?)")?[^>]?.*?>.*?<code>(.*?)<\/code>.*?<\/pre>/sim';
+	$content = preg_replace_callback($codePattern, 'mb_pygments_convert_code', $content);
 	
 	/*
 	OR	
