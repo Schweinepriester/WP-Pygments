@@ -30,6 +30,11 @@ function mb_pygments_save_post( $post_id )
 
 function mb_pygments_content_filter( $content )
 {
+	// preventing error on unsaved posts
+	global $post;
+	if ( !is_object($post) || !isset($post->ID))
+		return $content;
+
 	// Check if there is cached data
 	if ( FALSE !== ( $cached_post = get_post_cache() ) && !post_cache_needs_update() )
 		return $cached_post['content'];
@@ -112,10 +117,10 @@ function mb_pygments_convert_code( $matches )
 function get_post_cache_transient()
 {
 	global $post;
-	
+
 	$post_id = $post->ID;
 	$transient = 'post_' . $post_id . '_content';
-	
+
 	return $transient;
 }
 
