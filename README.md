@@ -12,11 +12,9 @@ You can read the tutorial here <http://davidwalsh.name/pygments-php-wordpress>, 
 
 ## How to use it
 
-Copy `WP-Pygments` into your plugins directory in WorPress.
-
-Head to wp-admin/plugins.php and Activate `WP Pygments`.
-
-Now every `<pre><code>` you have in your post/page content would turn into pygments highlighted code.
+1. Copy `WP-Pygments` into your plugins directory in WordPress
+2. Head to `wp-admin/plugins.php` and activate `WP Pygments`
+3. Now every `<pre><code>` you have in your post/page content would turn into pygments highlighted code
 
 Ex:
 
