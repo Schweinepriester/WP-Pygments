@@ -1,19 +1,16 @@
-WP-Pygments
-===========
+# WP-Pygments
 
-Use Pygment syntax highlighter on Wordpress (PHP)
-
+Plug the Python syntax highlighter [Pygments](https://pygments.org/) into
+WordPress to turn every `<pre><code>` into highlighted code server-side, 
+no JavaScript required!
 
 # THIS IS JUST A SIMPLE PLUGIN, NOT HIGHLY TESTED, USE IT AT YOUR OWN RISK
 
-Tutorial
----------
+## Tutorial
 
-You can read the tutorial here http://davidwalsh.name/pygments-php-wordpress, not on how to use it, but how I wrote it.
+You can read the tutorial here <http://davidwalsh.name/pygments-php-wordpress>, not on how to use it, but how I wrote it.
 
-
-How to use it
--------------
+## How to use it
 
 Copy `WP-Pygments` into your plugins directory in WorPress.
 
