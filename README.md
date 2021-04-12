@@ -4,6 +4,9 @@ Plug the Python syntax highlighter [Pygments](https://pygments.org/) into
 WordPress to turn every `<pre><code>` into highlighted code server-side, 
 no JavaScript required!
 
+Originally created by [@wellingguzman](https://github.com/wellingguzman), this repo was a fork.  
+MIT license and continuation of the plugin with [permission](https://twitter.com/wellingguzman/status/1381198380584558594).
+
 # THIS IS JUST A SIMPLE PLUGIN, NOT HIGHLY TESTED, USE IT AT YOUR OWN RISK
 
 ## Tutorial
