@@ -11,7 +11,7 @@ MIT license and continuation of the plugin with [permission](https://twitter.com
 
 ## Tutorial
 
-You can read the tutorial here <http://davidwalsh.name/pygments-php-wordpress>, not on how to use it, but how I wrote it.
+You can read the tutorial here <http://davidwalsh.name/pygments-php-wordpress>, not on how to use it, but how [@wellingguzman](https://github.com/wellingguzman) wrote it.
 
 ## How to use it
 
